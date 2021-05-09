@@ -1,5 +1,5 @@
 .featured {
-    height: 100vh;
+    height: 60vh;
 }
 .featured--vertical{
     width:  inherit;
@@ -38,14 +38,20 @@
     max-width: 40%;
 }
 
-.featured--buttons, .featured--watchbutton , 
-.featured--mylistbutton {
+.featured--buttons{
     margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.featured--watchbutton , 
+.featured--mylistbutton {
+    
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
-    padding: 15px  25px;
-    border-radius: 5px;
+    padding: 15px  30px;
+    border-radius: 10px;
     text-decoration: none;
     margin-right: 10px;
 }
