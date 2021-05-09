@@ -38,12 +38,9 @@
     max-width: 40%;
 }
 
-.featured--buttons{
-    margin-top: 15px;
-}
-
-.featured-watchbutton , 
+.featured--buttons, .featured--watchbutton , 
 .featured--mylistbutton {
+    margin-top: 15px;
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
@@ -51,9 +48,9 @@
     border-radius: 5px;
     text-decoration: none;
     margin-right: 10px;
-    
-    
 }
+
+
 
 .featured--watchbutton {
     background-color: #fff;
