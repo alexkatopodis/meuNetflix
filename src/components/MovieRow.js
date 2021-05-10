@@ -6,7 +6,7 @@ import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({ title, items }) => {
-    const [scrollx, setscrollx] = useState(-400) ;
+    const [scrollx, setscrollx] = useState(0) ;
     
 
     const handleLeftArrow = () => {
