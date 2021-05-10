@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 import './App.css';
+import Header from './components/Header';
 import FeaturedMovie from './components/FeaturedMovie';
 
 
@@ -10,6 +11,7 @@ export default () => {
 
   const [movieList, setmovieList] = useState([]);
   const [featuredData, setFeaturedData] = useState([null]);
+  
 
   useEffect(() => {
     const loadAll = async () => {
@@ -30,6 +32,10 @@ export default () => {
 
    return (
      <div className='page'>
+
+       <Header />
+
+
        {featuredData && 
        <FeaturedMovie item={featuredData}/>
        }
